@@ -23,4 +23,25 @@ body {
   background-color: var(--cor-primaria);
   color: var(--cor-secundaria);
 }
-  
+
+.container {
+  margin: 0 var(--espacamento-lateral);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secao-principal {
+  min-height: 100vh;
+
+  background: linear-gradient(
+    135deg,
+    var(--cor-degrade-1) 0%,
+    var(--cor-degrade-2) 50%,
+    var(--cor-degrade-3) 75%,
+    var(--cor-degrade-4) 100%
+  );
+
+  display: flex;
+  align-items: center;
+}
