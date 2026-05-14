@@ -261,6 +261,12 @@ body {
   gap: 6px;
 }
 
+.sobre-bloco ul li {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.7;
+}
+
 .hero {
   position: relative;
   width: 100%;
