@@ -228,6 +228,23 @@ body {
   color: #333;
 }
 
+.sobre-conteudo {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 60px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+ 
+.sobre-bloco h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
 .hero {
   position: relative;
   width: 100%;
