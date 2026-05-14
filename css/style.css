@@ -245,6 +245,22 @@ body {
   margin-bottom: 16px;
 }
 
+.sobre-bloco p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+ 
+.sobre-bloco ul {
+  padding-left: 20px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 .hero {
   position: relative;
   width: 100%;
