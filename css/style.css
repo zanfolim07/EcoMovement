@@ -340,6 +340,55 @@ body {
   color: #555;
   line-height: 1.5;
 }
+
+.faq {
+  width: 100%;
+  padding: 20px 8% 80px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-faq {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 35px 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card-faq h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.card-faq p {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.card-faq ul {
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-faq ul li {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.7;
+}
  
 .footer {
   width: 100%;
