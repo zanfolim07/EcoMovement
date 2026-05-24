@@ -390,6 +390,43 @@ body {
   line-height: 1.7;
 }
  
+.sobre-conteudo {
+  width: 100%;
+  padding: 20px 8% 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sobre-bloco h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 5px;
+}
+
+.sobre-bloco p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 5px;
+}
+
+.sobre-bloco ul {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sobre-bloco ul li {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
 .footer {
   width: 100%;
   margin-top: auto;
@@ -574,7 +611,7 @@ body {
   margin-bottom: 5px;
 }
 
-.card-broche p {
+.card-broche .nivel-broche {
   font-size: 0.95rem;
   color: #777777;
 }
