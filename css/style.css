@@ -578,3 +578,94 @@ body {
   font-size: 0.95rem;
   color: #777777;
 }
+
+.ong-section {
+  width: 100%;
+  padding: 80px 8%;
+  background-color: #FFFFFF;
+}
+
+.ong-titulo-container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ong-titulo-container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin-bottom: 15px;
+}
+
+.destaque-azul {
+  color: #0091EA; /* Tom de azul ou verde principal do seu Figma */
+}
+
+.ong-titulo-container p {
+  font-size: 1rem;
+  color: #555555;
+}
+
+/* Flexbox para colocar as duas colunas lado a lado no desktop */
+.ong-conteudo-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px; /* Espaço entre o texto e a imagem */
+}
+
+/* Configuração da Coluna de Texto */
+.ong-texto-bloco {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha o botão e textos à esquerda */
+  text-align: left;
+}
+
+.ong-texto-bloco h3 {
+  font-size: 1.8rem;
+  color: #0091EA;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.ong-texto-bloco p {
+  font-size: 1rem;
+  color: #444444;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Botão "Saiba Mais" estilizado */
+.btn-saiba-mais {
+  display: inline-block;
+  padding: 12px 35px;
+  background-color: #4FC3F7; /* Cor do botão do Figma */
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 25px; /* Bordas arredondadas estilo pílula */
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn-saiba-mais:hover {
+  background-color: #0091EA; /* Efeito hover mais escuro */
+}
+
+/* Configuração da Coluna da Imagem */
+.ong-imagem-bloco {
+  flex: 1;
+  margin: 0;
+}
+
+.ong-imagem-bloco img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px; /* Cantos arredondados como no protótipo */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+}
