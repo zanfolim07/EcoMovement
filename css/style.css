@@ -482,3 +482,99 @@ body {
   font-size: 15px;
   font-weight: 300;
 }
+
+.broches-section {
+  width: 100%;
+  padding: 80px 8%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza tudo o que estiver dentro da seção horizontalmente */
+  text-align: center; /* Garante que os textos fiquem centralizados */
+}
+
+/* Bloco do Título e Descrição */
+.titulo-section-menor {
+  max-width: 700px;
+  margin-bottom: 50px; /* Afasta o título dos cartões abaixo */
+}
+
+.titulo-section-menor h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin-bottom: 15px;
+}
+
+.titulo-section-menor p {
+  font-size: 1rem;
+  color: #555555;
+  line-height: 1.6;
+}
+
+/* Lista Flexbox contendo os cartões */
+.broches-lista {
+  list-style: none; /* Remove as bolinhas da lista */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centraliza a fileira de cards na tela */
+  align-items: center;
+  gap: 50px; /* Espaço elegante entre um cartão e outro */
+  flex-wrap: wrap; /* Permite quebrar linha se a tela for muito pequena */
+}
+
+/* Cada cartão individual */
+.card-broche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+/* O ícone estilizado como um círculo perfeito */
+.icone-broche {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%; /* Faz a mágica do círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06); /* Sombra suave profissional */
+}
+
+/* Cores de fundo baseadas na paleta do projeto */
+.icone-broche.bronze {
+  background-color: #CD7F32;
+  color: #FFFFFF;
+}
+
+.icone-broche.prata {
+  background-color: #A0A0A0;
+  color: #FFFFFF;
+}
+
+.icone-broche.ouro {
+  background-color: #D4AF37;
+  color: #FFFFFF;
+}
+
+.icone-broche.lenda {
+  background-color: #7B1FA2;
+  color: #FFFFFF;
+}
+
+/* Textos internos dos cartões */
+.card-broche h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1A1A1A;
+  margin-bottom: 5px;
+}
+
+.card-broche p {
+  font-size: 0.95rem;
+  color: #777777;
+}
