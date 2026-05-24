@@ -390,6 +390,43 @@ body {
   line-height: 1.7;
 }
  
+.sobre-conteudo {
+  width: 100%;
+  padding: 20px 8% 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sobre-bloco h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 5px;
+}
+
+.sobre-bloco p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 5px;
+}
+
+.sobre-bloco ul {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sobre-bloco ul li {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
 .footer {
   width: 100%;
   margin-top: auto;
@@ -482,3 +519,202 @@ body {
   font-size: 15px;
   font-weight: 300;
 }
+
+.broches-section {
+  width: 100%;
+  padding: 80px 8%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza tudo o que estiver dentro da seção horizontalmente */
+  text-align: center; /* Garante que os textos fiquem centralizados */
+}
+
+/* Bloco do Título e Descrição */
+.titulo-section-menor {
+  max-width: 700px;
+  margin-bottom: 50px; /* Afasta o título dos cartões abaixo */
+}
+
+.titulo-section-menor h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin-bottom: 15px;
+}
+
+.titulo-section-menor p {
+  font-size: 1rem;
+  color: #555555;
+  line-height: 1.6;
+}
+
+/* Lista Flexbox contendo os cartões */
+.broches-lista {
+  list-style: none; /* Remove as bolinhas da lista */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centraliza a fileira de cards na tela */
+  align-items: center;
+  gap: 50px; /* Espaço elegante entre um cartão e outro */
+  flex-wrap: wrap; /* Permite quebrar linha se a tela for muito pequena */
+}
+
+/* Cada cartão individual */
+.card-broche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+}
+
+/* O ícone estilizado como um círculo perfeito */
+.icone-broche {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%; /* Faz a mágica do círculo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06); /* Sombra suave profissional */
+}
+
+/* Cores de fundo baseadas na paleta do projeto */
+.icone-broche.bronze {
+  background-color: #CD7F32;
+  color: #FFFFFF;
+}
+
+.icone-broche.prata {
+  background-color: #A0A0A0;
+  color: #FFFFFF;
+}
+
+.icone-broche.ouro {
+  background-color: #D4AF37;
+  color: #FFFFFF;
+}
+
+.icone-broche.lenda {
+  background-color: #7B1FA2;
+  color: #FFFFFF;
+}
+
+/* Textos internos dos cartões */
+.card-broche h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1A1A1A;
+  margin-bottom: 5px;
+}
+
+.card-broche .nivel-broche {
+  font-size: 0.95rem;
+  color: #777777;
+}
+
+.ong-section {
+  width: 100%;
+  padding: 80px 8%;
+  background-color: #FFFFFF;
+}
+
+.ong-titulo-container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.ong-titulo-container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1A1A1A;
+  margin-bottom: 15px;
+}
+
+.destaque-azul {
+  color: #0091EA; /* Tom de azul ou verde principal do seu Figma */
+}
+
+.ong-titulo-container p {
+  font-size: 1rem;
+  color: #555555;
+}
+
+/* Flexbox para colocar as duas colunas lado a lado no desktop */
+.ong-conteudo-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px; /* Espaço entre o texto e a imagem */
+}
+
+/* Configuração da Coluna de Texto */
+.ong-texto-bloco {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha o botão e textos à esquerda */
+  text-align: left;
+}
+
+.ong-texto-bloco h3 {
+  font-size: 1.8rem;
+  color: #0091EA;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.ong-texto-bloco p {
+  font-size: 1rem;
+  color: #444444;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* Botão "Saiba Mais" estilizado */
+.btn-saiba-mais {
+  display: inline-block;
+  padding: 12px 35px;
+  background-color: #4FC3F7; /* Cor do botão do Figma */
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 25px; /* Bordas arredondadas estilo pílula */
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn-saiba-mais:hover {
+  background-color: #0091EA; /* Efeito hover mais escuro */
+}
+
+/* Configuração da Coluna da Imagem */
+.ong-imagem-bloco {
+  flex: 1;
+  margin: 0;
+}
+
+.ong-imagem-bloco img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px; /* Cantos arredondados como no protótipo */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+}
+
+/* Estilização para destacar a Turma no final da página "quem-somos.html */
+.turma-projeto {
+  text-align: center;
+  font-size: 1.2rem;       /* Aumenta o tamanho do texto */
+  font-weight: 600;        /* Deixa o texto levemente mais encorpado */
+  color: #333333;          /* Uma cor escura para dar boa leitura */
+  margin-top: 40px;        /* Espaço em relação ao último integrante */
+  margin-bottom: 40px;     /* Espaço em relação ao início do footer */
+  letter-spacing: 0.5px;   /* Um leve respiro entre as letras */
+}
+
