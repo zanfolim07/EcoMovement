@@ -669,3 +669,15 @@ body {
   border-radius: 20px; /* Cantos arredondados como no protótipo */
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05); /* Sombra sutil */
 }
+
+/* Estilização para destacar a Turma no final da página "quem-somos.html */
+.turma-projeto {
+  text-align: center;
+  font-size: 1.2rem;       /* Aumenta o tamanho do texto */
+  font-weight: 600;        /* Deixa o texto levemente mais encorpado */
+  color: #333333;          /* Uma cor escura para dar boa leitura */
+  margin-top: 40px;        /* Espaço em relação ao último integrante */
+  margin-bottom: 40px;     /* Espaço em relação ao início do footer */
+  letter-spacing: 0.5px;   /* Um leve respiro entre as letras */
+}
+
