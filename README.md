@@ -55,25 +55,24 @@ O projeto conta com as seguintes páginas:
 EcoMovement/
 │
 ├── index.html
+├── README.md
 │
 ├── css/
 │   └── style.css
 │
 ├── img/
-│   ├── imagem inicio.png
-│   ├── imagem-banner.png
+│   ├── fabio_perfil.jpeg
 │   ├── image.png
 │   ├── imageLuc.jpg
-│   ├── matheus_perfil.jpg
+│   ├── imagem inicio.png
+│   ├── imagem-banner.png
 │   ├── jaimeFotoPerfil.jpeg
-│   ├── fabio_perfil.jpeg
+│   ├── matheus_perfil.jpg
 │   └── wwf-brasil.png
 │
-├── pages/
-│   ├── inicio.html
-│   ├── quem-somos.html
-│   ├── sobre.html
-│   ├── faq.html
-│   └── contato.html
-│
-└── README.md
+└── pages/
+    ├── contato.html
+    ├── faq.html
+    ├── inicio.html
+    ├── quem-somos.html
+    └── sobre.html
