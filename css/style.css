@@ -864,3 +864,58 @@ body {
   transform: translateY(-2px);
 }
 
+/* Responsividade da página de contato */
+
+@media (max-width: 900px) {
+  .contato-main {
+    max-width: 100%;
+    padding: 50px 6% 80px;
+  }
+
+  .contato-card {
+    width: 100%;
+    min-height: auto;
+    padding: 38px 32px;
+  }
+
+  .contato-card h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contato-main {
+    padding: 40px 5% 65px;
+  }
+
+  .contato-intro h1 {
+    font-size: 26px;
+  }
+
+  .contato-intro p {
+    font-size: 13px;
+  }
+
+  .contato-card {
+    padding: 30px 22px;
+    border-radius: 28px;
+  }
+
+  .contato-card h2 {
+    font-size: 28px;
+  }
+
+  .campo-contato input {
+    height: 48px;
+  }
+
+  .campo-contato textarea {
+    height: 150px;
+  }
+
+  .botao-contato {
+    height: 52px;
+  }
+}
+
